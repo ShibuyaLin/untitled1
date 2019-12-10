@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href="./font_nv520sj9gz/iconfont.css" type="text/css" rel="stylesheet">
+  <link href="./分类/iconfont.css" type="text/css" rel="stylesheet">
+  <link href="./登录/iconfont.css" type="text/css" rel="stylesheet">
+  <!--top1-->
+  <style>
+   *{
+     padding: 0;
+     margin: 0;
+   }
+    #zong{
+      width: 100%;
+    }
+    #zong .top1{
+      width: 100%;
+      height: 102px;
+      background: #FF7246;
+    }
+    #zong .top1 .dyh{
+      width: 68%;
+      height: 63px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #FF7246;
+
+
+    }
+    .dyh img{
+      width: 92%;
+      height: 36px;
+      padding-left: 20px;
+
+    }
+    #zong .top1 .deh{
+      width: 85%;
+      height: 82px;
+      margin-left:45px;
+      margin-right: 5px;
+      background: #FF7246;
+    }
+    #zong .top1 .deh input{
+      width:57% ;
+      height:31px ;
+      border-radius:50px 50px ;
+      font-size: 17px;
+      font-weight: 700;
+      color: grey;
+    padding-left: 22px ;
+      opacity: 70%;
+    }
+    .dyh a{
+      width: 15%;
+      height: 40px;
+      margin-bottom: 17px;
+      text-decoration-line: none;
+      padding-left: 15px;
+      color: black;
+    }
+  </style>
+  <!--top2/3-->
+  <style>
+    #top2{
+      width: 100%;
+      height: 228px;
+      background-image: url("https://image1.suning.cn/uimg/cms/img/157536633315934182.png");
+      background-repeat: no-repeat;
+      background-size:cover;
+      justify-content: space-around;
+      align-items:center;
+      display: flex;
+    }
+    #top2 img{
+      width: 90%;
+      height: 70%;
+    }
+    #top3{
+      display: flex;
+      list-style: none;
+      width: 100%;
+      height: 150px;
+      margin: 0px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: space-between;
+    }
+    #top3 li{
+      width: 18%;
+      height: 90px;
+      text-align: center;
+    }
+    #top3 li img {
+      width: 77%;
+      height: 50px;
+    }
+    #top3 li .wen{
+      font-weight: 900;
+      color: #555555;
+      font-size: 13px;
+      height: 25px;
+    }
+
+
+  </style>
+  <!--top4/top5-->
+  <style>
+    #top4{
+      width: 100%;
+      height: 160px;
+      display: flex;
+      margin-top: 25px;
+    }
+    #top4 img{
+      width: 33.3%;
+      height: 150px;
+    }
+    #top5{
+      width: 100%;
+      height: 145px;
+    }
+    #top5 img:nth-child(1){
+      width: 49%;
+      height: 150px;
+    }
+    #top5 img{
+      width: 24%;
+      height: 150px;
+    }
+  </style>
+  <!--top6-->
+  <style>
+.top6{
+  display: flex;
+  width: 100%;
+  height: 140px;
+  margin-top: 15px;
+  background: #FF7246;
+}
+    .top6 img:nth-child(1){
+      width: 100%;
+      height: 140px;
+    }
+    .top78{
+      width: 100%;
+      height: 113px;
+      background: #FF7246;
+    }
+    .top78 img{
+      width: 49%;
+      height: 111px;
+
+    }
+    .top89{
+      width: 100%;
+      height: 146px;
+      background: #FF7246;
+    }
+    .top89 img{
+      width: 24%;
+      height: 146px;
+    }
+
+  </style>
+  <!--top10-->
+  <style>
+    #top10{
+      display: flex;
+      width: 100%;
+      height: 560px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: space-between;
+      margin-top: 15px;
+    }
+    #top10 .guang{
+      width: 48%;
+      height: 280px;
+    }
+    #top10 .guang img{
+      width: 100%;
+      height: 200px;
+      text-decoration-line: none;
+    }
+      .ziti {
+        font-size: 15px;
+        font-weight: 700;
+        width: 100%;
+        height: 19px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 10px 10px 0px 6px;
+        color: #555555;
+
+      }
+    #top10 .jiage{
+      width: 100%;
+      height: 60px;
+      text-decoration-line: none;
+    }
+    #top10 .jiage .qian{
+      line-height: 60px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #FF7246;
+      margin-left: 5px;
+    }
+    .shuzi{
+      font-size: 16px;
+      font-weight: 600;
+      color: #FF7246;
+      line-height: 60px;
+    }
+    .pingjia{
+      font-size: 10px;
+      color: #555555;
+      line-height:60px;
+      margin-left: 20px;
+    }
+  </style>
+  <style>
+    .shangpinlianjue{
+      text-decoration-line: none;
+    }
+    .shangpinlianjie{
+      width: 100%;
+      height:50px ;
+      position: fixed;
+      bottom: 0;
+      z-index: 999;
+      background-color: white;
+    }
+    .shangpinlianjie .fu{
+      height: 50px;
+      width: 100%;
+      display: flex;
+    }
+    .shangpinlianjie .fu a{
+      width: 25%;
+      height: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-decoration-line: none;
+      color: #555555;
+    }
+    .shangpinlianjie .fu a img{
+      width: 30px;
+      height: 30px;
+      padding-left: 20px;
+
+    }
+    .shangpinlianjie .fu a div{
+      width: 50px;
+      height: 20px;
+      font-size: 10px;
+     line-height: 20px;
+      padding-left: 20px;
+
+    }
+  </style>
+
+</head>
+<body>
+<div id="zong">
+  <div class="top1">
+    <div class="dyh">
+      <!--<a><img src="https://image3.suning.cn/uimg/cms/img/157199320847433454.png">-->
+      <a  href="http://localhost:63342/demo001/homework/%E5%88%86%E7%B1%BB.html?_ijt=lrc731bf5d4629uon3vlqs192f" target="_self" class="iconfont" style="font-size: 40px">&#xe608;</a>
+      <img src="https://image2.suning.cn/uimg/cms/img/157518102490268071.gif">
+      <a class="iconfont" style="font-size: 40px" href="http://localhost:63342/demo001/homework/%E7%99%BB%E5%BD%95.html?_ijt=lrc731bf5d4629uon3vlqs192f" target="_self">&#xe612;</a>
+    </div>
+    <div class="deh">
+    <span class="iconfont" style="font-size: 25px">&#xe6a2;</span>
+      <input placeholder="双十一火爆预售">
+
+    </div>
+
+  </div>
+  <div id="top2">
+    <img src="https://image2.suning.cn/uimg/cms/img/157544499836048684.jpg?format=_is_1242w_610h">
+  </div>
+  <ul id="top3">
+    <li>
+      <img src="https://image1.suning.cn/uimg/cms/img/157354388821073511.png?format=_is_120w_120h.webp">
+      <div class="wen">限时抢购</div>
+    </li>
+    <li>
+      <img src="https://image1.suning.cn/uimg/cms/img/157165889469283916.png?format=_is_120w_120h.webp">
+      <div class="wen">苏宁超市</div>
+    </li>
+    <li>
+      <img src="https://image2.suning.cn/uimg/cms/img/157165891799364137.png?format=_is_120w_120h.webp">
+      <div class="wen">苏宁拼购</div>
+    </li>
+    <li>
+      <img src="https://image3.suning.cn/uimg/cms/img/157165893790085815.png?format=_is_120w_120h.webp">
+      <div class="wen">爆款手机</div>
+    </li>
+    <li>
+      <img src="https://image3.suning.cn/uimg/cms/img/157165895671653077.png?format=_is_120w_120h.webp">
+    <div class="wen">苏宁家电</div>
+    </li>
+    <li>
+      <img src="https://image2.suning.cn/uimg/cms/img/157165897779526702.png?format=_is_120w_120h.webp">
+   <div class="wen">免费兑换好物</div>
+    </li>
+    <li>
+      <img src="https://image1.suning.cn/uimg/cms/img/154708810364057852.png?format=_is_120w_120h.webp">
+      <div class="wen">签到有礼</div>
+    </li>
+    <li>
+      <img src="https://image3.suning.cn/uimg/cms/img/157165908511134313.png?format=_is_120w_120h.webp">
+      <div class="wen">领券中心</div>
+    </li>
+    <li>
+      <img src="https://imgservice3.suning.cn/uimg1/anubis/pindao/od_p-8QX7hsSNsmKDy8HSw.png">
+      <div class="wen">苏宁国际</div>
+    </li>
+    <li>
+      <img src="https://image1.suning.cn/uimg/cms/img/157165912004147386.png?format=_is_120w_120h.webp">
+      <div class="wen">更多频道</div>
+    </li>
+  </ul>
+  <div id="top4">
+    <img src="https://image3.suning.cn/uimg/cms/img/157536510854875765.png?from=mobile">
+    <img src="https://image1.suning.cn/uimg/cms/img/157536505500944826.png?from=mobile">
+    <img src="https://image1.suning.cn/uimg/cms/img/157536498288332876.png?from=mobile">
+
+  </div>
+  <div id="top5">
+    <img src="https://image3.suning.cn/uimg/cms/img/157330223943814123.png">
+    <img src="https://image1.suning.cn/uimg/cms/img/157330224785306243.gif">
+    <img src="https://image1.suning.cn/uimg/cms/img/157330227372982455.gif">
+  </div>
+  <div class="top6">
+    <img src="https://image3.suning.cn/uimg/cms/img/157536527411300936.png?from=mobile" >
+  </div>
+  <div class="top78">
+    <img src="https://image3.suning.cn/uimg/cms/img/157536617086426632.jpg?from=mobile">
+    <img src="https://image3.suning.cn/uimg/cms/img/157536621963209471.jpg?from=mobile">
+  </div>
+  <div class="top89">
+    <img src="./苏宁/6F95X%603%60PP@7(88QEJ(7WTK.png">
+    <img src="./苏宁/9%25UB%7D70_L9%5BTW8%7DS%255%7DV3M7.png">
+    <img src="./苏宁/978U5)ZUDW3M%25XU85%601D%5D(V.png">
+    <img src="./苏宁/CJL872TZ3D%7BZDXY%250QRO4%5BC.png">
+  </div>
+  <div id="top10">
+    <div class="guang">
+      <img src="https://imgservice.suning.cn/uimg1/b2c/image/zWRqtz8pTnBBIOLCpA1p3A.jpg?format=_is_300w_300h_4e.webp">
+    <div class="ziti">舒华9119系列家用跑步机居家款小型多功能超静音减震折叠室内健身马达峰值3HP</div>
+      <div class="jiage">
+        <span class="qian">￥</span>
+        <span class="shuzi">2949</span>
+        <span class="pingjia">100+评价</span>
+      </div>
+    </div>
+    <div class="guang">
+      <img src="https://imgservice.suning.cn/uimg1/b2c/image/40v2oZfsWEd-x897urhcgQ.jpg?format=_is_300w_300h_4e.webp">
+      <div class="ziti">良品铺子 鸡肉类 奥尔良小鸡腿 108gX1袋装 肉类熟食卤味办公室鸡肉类零食小吃食品其他小包装</div>
+    <div class="jiage">
+      <span class="qian">￥</span>
+      <span class="shuzi">29.9</span>
+      <span class="pingjia">12万+评价</span>
+    </div>
+    </div>
+    <div class="guang">
+      <a  class="shangpinlianjue" href="http://localhost:63342/demo001/homework/%E5%95%86%E5%93%81.html?_ijt=lrc731bf5d4629uon3vlqs192f" target="_self">
+      <img src="https://imgservice.suning.cn/uimg1/b2c/atmosphere/G6mrwEglUyL9Ag1KHR2zHA.jpg?format=_is_300w_300h_4e.webp">
+      <div class="ziti">华为/荣耀（honor）20S 6GB+128GB 蝶羽白 李现同款 4G全网通 3200万人像超级夜景 4800万超广角AI三摄 麒麟810旗舰级芯片全面屏手机</div>
+      <div class="jiage">
+        <span class="qian">￥</span>
+        <span class="shuzi">1499</span>
+        <span class="pingjia">1000+评价</span></a>
+
+      </div>
+
+    </div>
+    <div class="guang">
+      <img src="https://uimgproxy.suning.cn/uimg1/pcpv/pcpv/iwogh/2019/12/05/09/iwoghBannerPicture/a884bc49eddd471fa6e40f70ffa0d978.png?format=_is_300w_300h_4e.webp">
+      <div class="ziti">Apple iPhone XR 128GB 白色 移动联通电信4G全网通手机 双卡双待</div>
+      <span class="qian">￥</span>
+      <span class="shuzi">4999</span>
+      <span class="pingjia">24万+评价</span>
+    </div>
+  </div>
+  <div class="shangpinlianjie">
+         <div class="fu">
+           <a>
+             <img src="https://image1.suning.cn/uimg/cms/img/157543974786039763.png?from=mobile">
+            <div>首页</div>
+           </a>
+           <a href="http://localhost:63342/demo001/homework/%E5%88%86%E7%B1%BB.html?_ijt=v6glpgjqkbb5gugmpsb8mjog7i"target="_self">
+             <img src="https://image2.suning.cn/uimg/cms/img/157543977001372472.png?from=mobile">
+             <div>分类</div>
+           </a>
+           <a href="http://localhost:63342/demo001/homework/%E5%BF%85%E6%8A%A2%E6%B8%85%E5%8D%95.html?_ijt=9a0spa1ooecvhi1ljkgfj6vcc1" target="_self">
+             <img src="https://image2.suning.cn/uimg/cms/img/157543978244974042.png?from=mobile">
+             <div style="padding-left:15px ">必抢清单</div>
+           </a>
+           <a href="http://localhost:63342/demo001/homework/%E8%B4%AD%E7%89%A9%E8%BD%A6.html?_ijt=5e9svt6gs1mqtag7fqbnkfk0ca" target="_self">
+             <img src="https://image3.suning.cn/uimg/cms/img/157543979328589256.png?from=mobile">
+             <div>购物车</div>
+           </a>
+           <a href="http://localhost:63342/demo001/homework/%E7%99%BB%E5%BD%95.html?_ijt=5e9svt6gs1mqtag7fqbnkfk0ca"target="_self">
+             <img src="https://image3.suning.cn/uimg/cms/img/157543980229048220.png?from=mobile">
+             <div style="padding-left: 15px">我的易购</div>
+           </a>
+         </div>
+  </div>
+
+
+</body>
+</html>

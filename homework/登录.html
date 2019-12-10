@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #denglu{
+      width: 100%;
+    }
+    .tou{
+      width: 100%;
+      height: 50px;
+    }
+    .qy{
+      width: 40%;
+      height: 50px;
+      margin-left: 60%;
+    }
+    .qy a{
+      font-size: 35px;
+      font-weight: 500;
+      width: 50%;
+      height: 50px;
+      padding-left: 10%;
+    }
+    .mingzi{
+      width: 90%;
+      height: 800px;
+      margin-top: 150px;
+      padding: 0 50px 0 50px;
+    }
+    .mingzi p{
+      font-size: 50px;
+      height: 100px;
+      width: 100%;
+      font-weight: 500;
+      margin: 0 0 0 0 ;
+    }
+    .ip1{
+      width: 100%;
+      height: 100px;
+      border: black 1px solid;
+      margin-top: 50px;
+    }
+    .ip1 input{
+      font-size: 40px;
+      width: 100%;
+      height: 100px;
+    }
+    .ip2{
+      width: 100%;
+      height: 100px;
+      margin-top: 50px;
+      display: flex;
+    }
+    .ip2 input{
+      width: 15%;
+      height: 95px;
+      font-size: 70px;
+      text-align: center;
+      margin-right: 15px;
+      border-right: white 1px solid;
+      border-bottom: darkgray 2px solid;
+      border-top: white 1px solid;
+      border-left: white 1px solid;
+    }
+    .ip2 div{
+      width: 30%;
+      height: 100px;
+      border: darkgrey 1px solid;
+      font-size: 38px;
+      text-align: center;
+      line-height: 100px;
+      border-radius: 10% 10%;
+    }
+  </style>
+  <style>
+    #denglu .tou .anniu{
+      width: 100%;
+      height: 300px;
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #denglu .tou .anniu a{
+        width: 100%;
+      height: 125px;
+    }
+    #denglu .tou .anniu a:nth-child(1){
+      font-size: 55px;
+      font-weight: 600;
+      line-height: 125px;
+      background:yellow;
+      border-radius: 5% 5%;
+      color: black;
+      text-decoration-line: none;
+    }
+    #denglu .tou .anniu a:nth-child(2){
+      font-size: 40px;
+      height: 125px;
+     line-height: 125px;
+    }
+  </style>
+  <style>
+    .denglufangshi{
+      width: 70%;
+      height: 300px;
+      margin-left: 15%;
+      position:absolute;
+      bottom: 0; left: 0;
+    }
+    .denglufangshi .zongshi{
+      width: 100%;
+      height: 298px;
+      position: relative;
+      bottom:0; left: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .zongshi p{
+      width: 100%;
+      height: 40px;
+      font-size: 25px;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 600;
+      padding-top: 35px;
+    }
+    .zongshi .tubiao{
+      width: 100%;
+      height: 84px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .zongshi .tubiao a{
+      width: 33%;
+      height: 83px;
+      text-align: center;
+    }
+    .zongshi .tubiao a img{
+      width: 40%;
+      height: 80px;
+    }
+    .zongshi .tiaoli{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 50px;
+    }
+    .zongshi .tiaoli span{
+      width: 15%;
+      height: 50px;
+      text-align: center;
+      font-size: 30px;
+      color: #888888;
+      font-weight: 500;
+      line-height: 50px;
+    }
+    .zongshi .tiaoli a{
+      font-size: 30px;
+      margin-left: 10px;
+      color: black;
+      text-decoration-line: none;
+      line-height: 50px;
+    }
+  </style>
+</head>
+<body>
+<div>
+<div id="denglu">
+<div class="tou">
+  <div class="qy">
+    <a>联系客服</a>
+    <a>企业注册</a>
+  </div>
+  <div class="mingzi">
+      <p>欢迎登录苏宁易购</p>
+    <div class="ip1"> <input placeholder="请输入手机号"></div>
+    <div class="ip2">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <div>获取验证码</div>
+    </div>
+    <div class="anniu">
+      <a href="http://localhost:63342/demo001/homework/%E4%B8%BB%E7%95%8C%E9%9D%A2.html?_ijt=lrc731bf5d4629uon3vlqs192f" target="_self">登录</a>
+      <a>账号密码登录</a>
+    </div>
+  </div>
+  <div class="denglufangshi" >
+    <div class="zongshi">
+      <p>其他登录方式</p>
+      <div class="tubiao">
+        <a><img src="https://res.suning.cn/project/passport/login/wapV8/images/icon_qq.png"></a>
+        <a><img src="https://res.suning.cn/project/passport/login/wapV8/images/icon_epp.png"></a>
+        <a><img src="https://res.suning.cn/project/passport/login/wapV8/images/icon_k.png"></a>
+      </div>
+      <div class="tiaoli">
+        <span>我同意</span>
+        <a href="">《苏宁易购会员章程》</a><a href="">《易付宝协议》</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

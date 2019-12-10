@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+    <link href="./font_oxxmfyttk1e/iconfont.css" type="text/css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #tuijian{
+            width: 100%;
+        }
+        #tuijian .ggpiao{
+            width: 100%;
+            height: 240px;
+            position: relative;
+            left: 0; top: 0;
+        }
+        .topd{
+            width: 100%;
+            height: 35px;
+            border: black 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+            position: fixed;
+            left: 0; top: 0;
+        }
+        .topd a{
+         font-size:30px;
+        }
+        .topd .pld{
+            width: 70%;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            margin-left: 20px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .pld1{
+            width: 15%;
+            height: 35px;
+        }
+        .pld1 img{
+            width: 50%;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+    </style>
+    <style>
+        #tuijian .sp{
+            width: 100%;
+            height: 200px;
+            border: black 1px solid;
+            position: fixed;
+            left: 0; top: 37px;
+        }
+        .yh{
+            width: 100%;
+            height: 50px;
+            border: black 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .yh img{
+            width: 15%;
+            height: 50px;
+        }
+        .yh1{
+            width: 70%;
+            height: 50px;
+            border: black 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .yh1 p{
+            width: 100%;
+            height: 25px;
+            margin: 0px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .yh1 p a{
+            font-size: 14px;
+        }
+        .yh1 p span{
+            font-size: 8px;
+            color: #FF7246;
+            border: #FF7246 1px solid;
+        }
+        .yh a{
+            width: 12%;
+            height: 20px;
+            font-size: 15px;
+            font-weight: 600;
+            color: whitesmoke;
+            margin-top: 15px;
+            margin-left: 5px;
+            background: #FF7246;
+        }
+        .biaoti{
+            width: 100%;
+            height: 100px;
+            border: #FF7246 1px solid;
+        }
+        .biaoti p{
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+        }
+        .biaoti span{
+            width: 100%;
+            height: 90px;
+            font-size: 10px;
+            color: #888888;
+        }
+    </style>
+    <style>
+        #tuijian .hw{
+            width: 100%;
+            height: 1500px;
+            border: black 1px solid;
+        }
+        #tuijian .hw ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #tuijian .hw ul li{
+            width: 100%;
+            height: 150px;
+            border: black 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #tuijian .hw ul li img{
+            width: 35%;
+        }
+        #tuijian .hw ul li .m30{
+            width: 64%;
+            height: 150px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #tuijian .hw ul li .m30 .pro{
+            width: 100%;
+            height: 20px;
+            border: black 1px solid;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 15px;
+        }
+        #tuijian .hw ul li .m30 .pro2{
+            width: 100%;
+            height: 20px;
+        }
+        #tuijian .hw ul li .m30 em{
+            font-size: 8px;
+            color: #888888;
+        }
+        #tuijian .hw ul li .m31{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            border: black 1px solid;
+        }
+        #tuijian .hw ul li .m31 span{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            color: #ff7c42;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        #tuijian .hw ul li .m31 p{
+            width: 100%;
+            height: 17px;
+            margin-bottom: 3px;
+            font-size: 10px;
+            color: #888888;
+        }
+        #tuijian .hw ul li .m31 p i:nth-child(1){
+            background: red;
+            color: whitesmoke;
+            font-size: 5px;
+        }
+        #tuijian .hw ul li .m31 p i:nth-child(2){
+            font-size: 5px;
+            border: red 1px solid;
+            color: red;
+            font-style: ;
+        }
+    </style>
+</head>
+<body>
+<div id="tuijian">
+    <div class="ggpiao">
+        <div class="topd">
+            <a class="iconfont">&#xe618;</a>
+            <div class="pld">
+                捕捉精彩，拍照手机稳定不模糊
+            </div>
+            <div class="pld1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkMwMDVBRjlFRDgzMTFFNDhBRkI4QUM4NjA2Qjk0M0IiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkMwMDVBRjhFRDgzMTFFNDhBRkI4QUM4NjA2Qjk0M0IiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUJDNTg4MEZEOUNCMTFFNDk4NDVFMTk2RUUzN0QzNUQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RUJDNTg4MTBEOUNCMTFFNDk4NDVFMTk2RUUzN0QzNUQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz63RxTUAAABQElEQVR42uyZv0rDUBTGm2ZyaIcKUnAo+g7pVgexW/MADm7SVcSxGS3dOjhl9R2yCQ5CB/+Ae97BDnVoSYf4HTlCKBZuQkjg8l34wb0kfIdf7r1niZOmacOG0WxYMihCEYpQhCIUoQhFKEIRilCEIhSxTMTxBhd/cx/cAk/X72AOooLZleS9vTxFWZF7MNkTMAVBzqKV5kEmkKM10pcScAMOQUfniT7zcxStPK9/NvTd495piMUJuAMPYA024BVsgWxZFzwaFq4lT47WCpOWmi53QsT8C3yDtmHhWvJMu5ZTdpMpO09EPnRx9c8L15kOYTpqyZM7Itt1Cc51G2NwAMZgBly9WLFh4VryrGm/siOyeAaf2k2OtBss9MuFBc5sZXmQ+M1z+FuBIhShCEUoQhGKUIQiFKEIRShil8iPAAMAn+B5xjiFvWsAAAAASUVORK5CYII=">
+            </div>
+        </div>
+        <div class="sp">
+            <video src="./华为Mate30%20Pro%20创意广告：《重构想象》中国版_超清.mp4"width="100%" height="200px" controls loop autoplay></video>
+        </div>
+    </div>
+    <div class="yh">
+        <img src="https://image5.suning.cn/uimg/MFS/show/148775261713274558.jpg">
+        <div class="yh1">
+            <p><a>数码酱</a><span>资深买手</span></p>
+            <p style="font-size: 5px">数码测评技术解读，种草各种尖端新机与实用电子配件。</p>
+        </div>
+        <a>+关注</a>
+    </div>
+    <div class="biaoti">
+        <p>捕捉精彩，拍照手机稳定不模糊</p>
+        <span>精彩的瞬间总是稍纵即逝，想要捕捉到生活中一些瞬间的镜头，那么需要一款拍照手机，可快速捕捉动态物体，稳定拍摄高清画面，拍摄清晰不模糊，配合广角摄像头，让你拍出大片质感。</span>
+    </div>
+    <div class="hw">
+        <ul>
+            <li>
+                <img src="https://imgservice5.suning.cn/uimg1/b2c/image/El68aOMpz7Qs47ffuz-Tew.jpg_300w_300h_4e">
+                <div class="m30">
+                    <p class="pro">华为(HUAWEI)mate30pro手机壳手机套原装智能视窗翻盖全包防摔皮套（5G)保护套商务原装正品（黑色）</p>
+                    <p class="pro2"><em>智能视窗  翻盖全包  原装正品</em></p>
+                    <div class="m31">
+                        <span>￥229.00</span>
+                        <p></p>
+                        <p>八条评价 &nbsp;&nbsp; 好评率100%</p>
+                        <p>信昌国际数码专营店</p>
+                    </div>
+                </div>
+
+            </li>
+            <li>
+                <img src="https://imgservice4.suning.cn/uimg1/b2c/image/lDa_lXkiTGFk-lHp-QlPbQ.jpg_300w_300h_4e">
+                <div class="m30">
+                    <p class="pro">华为Mate30Pro 5G</p>
+                    <p class="pro2"><em> 麒麟990 曲面环幕屏 徕卡四摄</em></p>
+                    <div class="m31">
+                        <span>￥6899.00</span>
+                        <p><i>超</i><i>新品</i></p>
+                        <p>900+条评价 &nbsp;&nbsp;好评率99%</p>
+                        <p>华为苏宁自营店</p>
+                    </div>
+                </div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+</div>
+</body>
+</html>

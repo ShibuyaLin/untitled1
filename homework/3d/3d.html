@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*让一个元素成为3d镜头*/
+        #wrap{
+            perspective: 800px;
+            width: 1200px;
+            height: 600px;
+            border: solid 1px black;
+        }
+        #box{
+            transform-style: preserve-3d;
+            width: 400px;
+            height: 400px;
+            border: solid 1px red;
+            position: absolute;
+            top: 80px;
+            left: 400px;
+        }
+        #box div{
+            width: 400px;
+            height: 400px;
+            border: solid 1px aqua;
+            position: absolute;
+        }
+        #box .zuo{
+            transform: translateX(-400px) rotateY(90deg);
+            transform-origin: right;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #box .you{
+            transform: translateX(400px) rotateY(-90deg);
+            transform-origin:left;
+            background-image: url("../图/毒药.gif");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        #box .shang{
+            transform: translateY(400px) rotateX(-90deg);
+            transform-origin: bottom;
+        }
+        #box .di{
+            transform: translateY(400px) rotateX(90deg);
+            transform-origin: top;
+        }
+        #box .mian{
+            transform: translateZ(400px);
+            background-image: url("../图/jidu.gif");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        #box:hover{
+            transform: rotateY(90deg);
+            transition: 5s;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="box">
+            <div class="zuo">
+                <span></span>
+            </div>
+            <div class="you"></div>
+            <div class="shang"></div>
+            <div class="di"></div>
+            <div class="after"></div>
+            <div class="mian"></div>
+        </div>
+    </div>
+
+</body>
+</html>
